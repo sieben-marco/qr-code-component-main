@@ -31,12 +31,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - CSS custom properties
 - Mobile-first workflow
+- Flexbox
 - Media Queries
 - [BEM](https://en.bem.info/methodology/quick-start/) - Block, Element, Modifier
 
 ### What I learned
 
-I learned about BEM and Media Queries. I also applied some things that I've learned how layout designs and how to make a web site with mobile-first.
+I learned about BEM and Media Queries. I also applied some things that I've learned about layout designs and how to use display Flexbox.
 
 ### Continued development
 
