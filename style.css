@@ -10,8 +10,8 @@
 
     /* fonts */
     --ff: 'Outfit', sans-serif; /* family */
-    --fs-p: 1.6rem; /* size paragraph */
-    --fs-h1: 2.25rem; /* size header */
+    --fs-p: 1.55rem; /* size paragraph */
+    --fs-h1: 2.2rem; /* size header */
     --fw-regular: 400;
     --fw-bold: 700;
 }
@@ -75,7 +75,8 @@ img {
 
 .card__wrapper {
     text-align: center;
-    padding: 1.6rem;
+    padding-inline: 1.6rem;
+    padding-block: 2.4rem;
 }
 
 .card__wrapper p {
