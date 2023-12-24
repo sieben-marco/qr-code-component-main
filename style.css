@@ -1,0 +1,91 @@
+:root {
+    /* set up font-size */
+    font-size: 62.5%; /* 1rem = 10px */
+
+    /* colors */
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    /* fonts */
+    --ff: 'Outfit', sans-serif; /* family */
+    --fs: 1.5rem; /* size */
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+/* reset */
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block; /* to remove default gap in inline elements */
+    width: 100%;
+}
+
+/* fonts */
+.card__wrapper h1 {
+    font-family: var(--ff);
+    font-size: 2.1rem;
+    color: var(--dark-blue);
+}
+
+.card__wrapper p {
+    font-size: var(--fs);
+    color: var(--grayish-blue);
+    font-family: var(--ff);
+}
+
+/* layout */
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 2.1rem;
+    border-radius: 1.5rem;
+    background-color: var(--white);
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 50rem;
+}
+
+.card__image {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card__wrapper {
+    text-align: center;
+    padding: 2.1rem 2.1rem 0 2.1rem;
+}
+
+.card__wrapper p {
+    margin-block: 1.4rem;
+}
+
+.attribution {
+    position: absolute;
+    bottom: .5rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 0;
+}
