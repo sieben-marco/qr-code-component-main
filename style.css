@@ -10,7 +10,8 @@
 
     /* fonts */
     --ff: 'Outfit', sans-serif; /* family */
-    --fs: 1.5rem; /* size */
+    --fs-p: 1.6rem; /* size paragraph */
+    --fs-h1: 2.25rem; /* size header */
     --fw-regular: 400;
     --fw-bold: 700;
 }
@@ -41,12 +42,12 @@ img {
 /* fonts */
 .card__wrapper h1 {
     font-family: var(--ff);
-    font-size: 2.1rem;
+    font-size: var(--fs-h1);
     color: var(--dark-blue);
 }
 
 .card__wrapper p {
-    font-size: var(--fs);
+    font-size: var(--fs-p);
     color: var(--grayish-blue);
     font-family: var(--ff);
 }
@@ -74,7 +75,7 @@ img {
 
 .card__wrapper {
     text-align: center;
-    padding: 2.4rem;
+    padding: 1.6rem;
 }
 
 .card__wrapper p {
