@@ -10,7 +10,7 @@
 
     /* fonts */
     --ff: 'Outfit', sans-serif; /* family */
-    --fs-p: 1.55rem; /* size paragraph */
+    --fs-p: 1.53rem; /* size paragraph */
     --fs-h1: 2.2rem; /* size header */
     --fw-regular: 400;
     --fw-bold: 700;
@@ -56,7 +56,7 @@ img {
 .container {
     width: 85%;
     /* margin: auto; */
-    padding: 1.5rem;
+    padding: 1.7rem;
     border-radius: 2rem;
     background-color: var(--white);
 
@@ -69,7 +69,7 @@ img {
 }
 
 .card__image {
-    border-radius: 1.3rem;
+    border-radius: 1rem;
     overflow: hidden;
 }
 
