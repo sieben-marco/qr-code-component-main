@@ -53,33 +53,57 @@ img {
 
 /* layout */
 .container {
-    width: 90%;
-    margin: auto;
-    padding: 2.1rem;
-    border-radius: 1.5rem;
+    width: 85%;
+    /* margin: auto; */
+    padding: 1.5rem;
+    border-radius: 2rem;
     background-color: var(--white);
 
+    /* to center container */
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1;
-    height: 50rem;
 }
 
 .card__image {
-    border-radius: 1rem;
+    border-radius: 1.3rem;
     overflow: hidden;
 }
 
 .card__wrapper {
     text-align: center;
-    padding: 2.1rem 2.1rem 0 2.1rem;
+    padding: 2.4rem;
 }
 
 .card__wrapper p {
-    margin-block: 1.4rem;
+    margin-top: 1.4rem;
+}
+
+/* desktop layout */
+@media screen and (min-width: 375px) {
+    .container {
+        width: 31.875rem;
+    }
+}
+
+/* mobile layout */
+@media screen and (max-width: 298px) {
+    .container {
+        width: 25.3rem;
+        margin: 1rem auto;
+        position: initial;
+        transform: initial;
+    }
+}
+
+/* mobile less than 253px */
+@media screen and (max-width: 253px) {
+    .container {
+        border-radius: 0;
+        margin: 0;
+    }
 }
 
 .attribution {
