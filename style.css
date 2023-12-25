@@ -63,11 +63,11 @@ body {
 .container {
     width: 85%;
     margin: auto;
-    padding: 1.7rem;
+    padding: 1.6rem;
     border-radius: 2rem;
     background-color: var(--white);
 
-    box-shadow: rgba(0, 0, 0, 0.24) .2rem .4rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.4) .4rem .8rem 2rem -1rem;
 
     /* to center container */
     /* position: absolute;
@@ -89,7 +89,7 @@ body {
 }
 
 .card__wrapper p {
-    margin-top: 1.4rem;
+    margin-top: 1.5rem;
 }
 
 /* desktop layout */
