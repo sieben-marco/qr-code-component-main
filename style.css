@@ -40,13 +40,13 @@ img {
 }
 
 /* fonts */
-.card__wrapper h1 {
+.container__wrapper h1 {
     font-family: var(--ff);
     font-size: var(--fs-h1);
     color: var(--dark-blue);
 }
 
-.card__wrapper p {
+.container__wrapper p {
     font-size: var(--fs-p);
     color: var(--grayish-blue);
     font-family: var(--ff);
@@ -77,18 +77,18 @@ body {
     z-index: 1; 
 }
 
-.card__image {
+.container__image {
     border-radius: 1rem;
     overflow: hidden;
 }
 
-.card__wrapper {
+.container__wrapper {
     text-align: center;
     padding-inline: 1.6rem;
     padding-block: 2.4rem;
 }
 
-.card__wrapper p {
+.container__wrapper p {
     margin-top: 1.5rem;
 }
 
